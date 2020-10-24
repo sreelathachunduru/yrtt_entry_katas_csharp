@@ -42,8 +42,8 @@ To run the tests, run
 
 Work through each test 1 by 1 until you have them all passing. Initially, you'll have a lot of failing tests and a lot of output on the console. To focus on a single test, you can run specific tests such as:
     
-    pytest tests/test_exercise001.py
+    TBC
 
 # The tasks
 
-You can see the first task in [exercise001.py](./tasks/exercise001.py)
+You can see the first task in [Exercise001.cs](./Tasks/Exercise001.cs)
