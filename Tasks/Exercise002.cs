@@ -10,7 +10,7 @@ namespace TechReturners.Tasks
     {
         public static int Past(int h, int m, int s)
         {
-            return 0;
+            throw new NotImplementedException();
         }
     }
 }
