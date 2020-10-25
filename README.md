@@ -42,7 +42,7 @@ To run the tests, run
 
 Work through each test 1 by 1 until you have them all passing. Initially, you'll have a lot of failing tests and a lot of output on the console. To focus on a single test, you can run specific tests such as:
     
-    TBC
+    dotnet test --filter Exercise001
 
 # The tasks
 
