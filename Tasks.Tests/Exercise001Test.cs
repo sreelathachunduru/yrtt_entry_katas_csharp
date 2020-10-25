@@ -1,5 +1,5 @@
 using Xunit;
-using TechReturners.Services;
+using TechReturners.Tasks;
 using System.Collections.Generic;
 
 // In this Kata, you will be given an array of numbers in which two numbers occur once and the rest occur only twice. 
@@ -9,7 +9,7 @@ using System.Collections.Generic;
 
 // Good luck!
 
-namespace TechReturners.UnitTests.Services
+namespace TechReturners.Tasks.UnitTests
 {
     public class Exercise001Test
     {

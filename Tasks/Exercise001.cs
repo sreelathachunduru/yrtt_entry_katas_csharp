@@ -8,7 +8,7 @@ using System.Collections.Generic;
 
 // Good luck!
 
-namespace TechReturners.Services
+namespace TechReturners.Tasks
 {
     public class Exercise001
     {
