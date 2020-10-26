@@ -26,7 +26,7 @@ Once you've got .NET Core installed you can make a start!
 
 Firstly you will need to [fork this GitHub repository](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo) to your own GitHub profile and then clone your forked repository down to your laptop.
 
-NOTE: You do NOT have to submit Pull Requests to us.
+**NOTE: You do NOT have to submit Pull Requests to us.**
 
 Once you have cloned the repository you can ensure any dependencies are restored by running:
 
