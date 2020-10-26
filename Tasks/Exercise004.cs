@@ -9,7 +9,7 @@ namespace TechReturners.Tasks
     {
         public static string PigIt(string str)
         {
-            return str;
+            throw new NotImplementedException();
         }
     }
 }
