@@ -2,12 +2,9 @@ using Xunit;
 using TechReturners.Tasks;
 using System.Collections.Generic;
 
-// In this Kata, you will be given an array of numbers in which two numbers occur once and the rest occur only twice. 
-// Your task will be to return the sum of the numbers that occur only once.
-// For example, repeats([4,5,7,5,4,8]) = 15 because only the numbers 7 and 8 occur once, and their sum is 15.
+// The clock shows 'h' hours, 'm' minutes and 's' seconds after midnight.
+// Your task is to make the 'past' function return the time converted to milliseconds.
 // More examples in the test cases below.
-
-// Good luck!
 
 namespace TechReturners.Tasks.UnitTests
 {
