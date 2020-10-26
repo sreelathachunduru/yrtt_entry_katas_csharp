@@ -14,9 +14,9 @@ Remember to break down problems to help you solve them and that Google is your f
 
 ### Instructions
 
-To complete these challenges you will need to .NET Core installed on your computer.
+To complete these exercises you will need to .NET Core installed on your computer.
 
-Follow this link and to download and install .NET Core for your laptop:
+Follow this link to download and install .NET Core for your laptop:
 
 https://dotnet.microsoft.com/download
 
