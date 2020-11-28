@@ -21,7 +21,7 @@ using System;
 
 // rowWeights([80])  ==>  return (80, 0)
 // Explanation:
-// The first element 80 is the total weight of team 1, and the second element 0 is the total weight of team 2.
+// The first element 80 is the total weight of team 1, and the second element 0 is the total weight of team 2..
 
 namespace TechReturners.Tasks
 {
@@ -29,8 +29,31 @@ namespace TechReturners.Tasks
     {
         public static int[] RowWeights(int[] a)
         {
+			int GrpA=0;
+			int GrpB=0;
+			for(int i=0;i<a.Length;i++)
+			{
+				if(i%2==0)
+				{
+					GrpA=GrpA+a[i];
+				}
+				else
+				{
+					GrpB=GrpB+a[i];
+				}
+			}
+			int[] returnList={GrpA,GrpB};
+			return returnList;
             throw new NotImplementedException();
         }
+		public static void Main()
+		{
+			int[] input={13, 27, 49};
+			int[] output=Exercise003.RowWeights(input);
+			for (int i=0;i<output.Length;i++)
+			{
+				Console.WriteLine(output[i]);
+			}
+		}
     }
 }
-

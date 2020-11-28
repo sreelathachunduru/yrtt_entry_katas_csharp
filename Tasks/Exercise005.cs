@@ -1,6 +1,6 @@
 using System;
 using System.Collections.Generic;
-
+using System.Linq;
 // Introduction
 // The wave (known as the Mexican wave in the English-speaking world outside North America) is an example of metachronal rhythm achieved in a packed 
 // stadium when successive groups of spectators briefly stand, yell, and raise their arms. Immediately upon stretching to full height, the spectator 
@@ -17,7 +17,7 @@ using System.Collections.Generic;
 
 // Rules
 //  1.  The input string will always be lower case but maybe empty.
-//  2.  If the character in the string is whitespace then pass over it as if it was an empty seat
+//  2.  If the character in the string is whitespace then pass over it as if it was an empty seat.
 // Example
 // wave("hello") => ["Hello", "hEllo", "heLlo", "helLo", "hellO"]
 
@@ -27,8 +27,14 @@ namespace TechReturners.Tasks
     {
         public static List<string> Wave(string str)
         {
+			var wave = str.Select((c, i)=> str.Substring(0, i) + str.Substring(i, 1).ToUpper() + str.Substring(i+1, str.Length-i-1)).Where(s => !s.All(c => c.ToString() == c.ToString().ToLower()));
+			return wave.ToList();
             throw new NotImplementedException();
         }
+		public static void Main()
+		{
+			List<string> output=Exercise005.Wave("hello");
+			output.ForEach(Console.WriteLine);
+		}
     }
 }
-
